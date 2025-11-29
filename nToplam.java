@@ -9,6 +9,11 @@ public class Toplam1denN {
         System.out.print("n degerini girin: ");
         int n = scanner.nextInt();
 
+        if (n < 1) {
+            System.out.println("n en az 1 olmali.");
+            return;
+        }
+
         int toplam = 0;
         for (int i = 1; i <= n; i++) {
             toplam += i;
