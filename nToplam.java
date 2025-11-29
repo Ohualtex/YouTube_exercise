@@ -27,7 +27,7 @@ public class Toplam1denN {
 //Formül ile çözüm
 import java.util.Scanner;
 
-public class Toplam1denNFormul {
+public class Toplam1denN {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -38,7 +38,6 @@ public class Toplam1denNFormul {
             System.out.println("n pozitif ve en az 1 olmali.");
             return;
         }
-
         // long kullanmak daha guvenli, cunku n buyuk olursa carpim tasabilir
         long toplam = (long) n * (n + 1) / 2;
 
