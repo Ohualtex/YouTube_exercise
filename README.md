@@ -22,6 +22,7 @@ Formüllü çözümde ise, matematikten bildiğimiz
 toplam = n * (n + 1) / 2 formülünü kullanabiliriz.
 
 Mesela n = 5 girilirse, toplam 1 + 2 + 3 + 4 + 5 = 15 çıkar.
+
 ___Bu problem bize hem döngüleri hem de bazen tek satırlık bir formülle aynı işi yapabildiğimizi gösteriyor.___
 
 # 🌞İkinci problem: Dizideki en büyük ve en küçük sayıyı bulma
