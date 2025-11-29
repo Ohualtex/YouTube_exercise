@@ -22,8 +22,8 @@ Formüllü çözümde ise, matematikten bildiğimiz
 toplam = n * (n + 1) / 2 formülünü kullanabiliriz.
 
 Mesela n = 5 girilirse, toplam 1 + 2 + 3 + 4 + 5 = 15 çıkar.
-Bu problem bize hem döngüleri hem de bazen tek satırlık bir formülle aynı işi yapabildiğimizi gösteriyor.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_Bu problem bize hem döngüleri hem de bazen tek satırlık bir formülle aynı işi yapabildiğimizi gösteriyor._
+
 # 🌞İkinci problem: Dizideki en büyük ve en küçük sayıyı bulma
 
 İkinci problemimizde kullanıcıdan n tane tam sayı almamızı ve bu sayılar içinden en büyük ve en küçük olanı bulmamızı istiyoruz.
@@ -67,8 +67,9 @@ Başta en büyük 3, en küçük 3.
 7’yi okuyunca bir şey değişmez.
 
 Sonuçta en büyük 10, en küçük -2’dir.
-Bu problem tek geçişte hem minimum hem maksimum bulma mantığını pekiştiriyor.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+_Bu problem tek geçişte hem minimum hem maksimum bulma mantığını pekiştiriyor._
+
 # 😸 Üçüncü problem: Asal sayı kontrolü
 
 Üçüncü problemde kullanıcının girdiği bir sayının asal olup olmadığını kontrol ediyoruz.
@@ -98,8 +99,8 @@ Değilse “n asal değildir” yazdır.
 Örneğin n = 12 için 2’ye tam bölünebildiğini görürüz, bu yüzden asal değildir.
 n = 13 için ise 2, 3, 4 denenir; hiçbirine tam bölünmediği için 13 asaldır.
 
-Burada dikkat ettiğimiz nokta, 2’den n’e kadar gitmek yerine, sadece kareköküne kadar kontrol ederek algoritmayı daha verimli hale getirmemiz.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_Burada dikkat ettiğimiz nokta, 2’den n’e kadar gitmek yerine, sadece kareköküne kadar kontrol ederek algoritmayı daha verimli hale getirmemiz._
+
 # 📐 Dördüncü problem: Geometrik şekillerin alan, çevre ve hacim hesaplaması
 
 Dördüncü problemde biraz daha matematiksel bir örnek yapalım.
@@ -187,8 +188,8 @@ Sonuçları yazdır.
 
 Eğer kullanıcı menüde olmayan bir değer girerse, “Geçersiz seçim” diye uyar.
 
-Bu problemde, hem matematikte gördüğünüz alan–çevre–hacim formüllerini kullanıyoruz hem de programlama tarafında menü tasarımı, kullanıcıdan veri alma ve koşul yapılarıyla çalışmayı tekrar etmiş oluyoruz.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_Bu problemde, hem matematikte gördüğünüz alan–çevre–hacim formüllerini kullanıyoruz hem de programlama tarafında menü tasarımı, kullanıcıdan veri alma ve koşul yapılarıyla çalışmayı tekrar etmiş oluyoruz._
+
 # 🧩 Beşinci problem: Fibonacci serisinin ilk n terimini yazdırma
 
 Son problemimiz Fibonacci serisiyle ilgili.
@@ -219,5 +220,4 @@ Sonra a = b, b = c yap ve devam et.
 
 Örneğin n = 5 girildiğinde ekranda 0, 1, 1, 2, 3 yazmasını bekleriz.
 
-Bu problem, önceki değerleri hatırlayarak yeni bir değer üretmenin güzel bir örneği.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_Bu problem, önceki değerleri hatırlayarak yeni bir değer üretmenin güzel bir örneği._
