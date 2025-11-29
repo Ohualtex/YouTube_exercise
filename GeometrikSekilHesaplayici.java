@@ -4,22 +4,22 @@ public class GeometrikSekilHesaplayici {
 
     // Kare hesaplama metodu
     public static void kareHesapla(double a) {
-        double kareAlan = a * a;
-        double kareCevre = 4 * a;
+        double alan = a * a;
+        double cevre = 4 * a;
         System.out.println("== KARE HESAPLAMASI ==");
         System.out.println("Kenar: " + a);
-        System.out.println("Kare alani: " + kareAlan);
-        System.out.println("Kare cevresi: " + kareCevre);
+        System.out.println("Alan: " + alan);
+        System.out.println("Cevre: " + cevre);
     }
 
     // Dikdortgen hesaplama metodu
     public static void dikdortgenHesapla(double kisa, double uzun) {
-        double dikAlan = kisa * uzun;
-        double dikCevre = 2 * (kisa + uzun);
+        double alan = kisa * uzun;
+        double cevre = 2 * (kisa + uzun);
         System.out.println("== DIKDORTGEN HESAPLAMASI ==");
         System.out.println("Kisa kenar: " + kisa + ", Uzun kenar: " + uzun);
-        System.out.println("Dikdortgen alani: " + dikAlan);
-        System.out.println("Dikdortgen cevresi: " + dikCevre);
+        System.out.println("Alan: " + alan);
+        System.out.println("Cevre: " + cevre);
     }
 
     public static void main(String[] args) {
