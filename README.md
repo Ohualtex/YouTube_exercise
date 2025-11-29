@@ -22,7 +22,7 @@ Formüllü çözümde ise, matematikten bildiğimiz
 toplam = n * (n + 1) / 2 formülünü kullanabiliriz.
 
 Mesela n = 5 girilirse, toplam 1 + 2 + 3 + 4 + 5 = 15 çıkar.
-_Bu problem bize hem döngüleri hem de bazen tek satırlık bir formülle aynı işi yapabildiğimizi gösteriyor._
+___Bu problem bize hem döngüleri hem de bazen tek satırlık bir formülle aynı işi yapabildiğimizi gösteriyor.___
 
 # 🌞İkinci problem: Dizideki en büyük ve en küçük sayıyı bulma
 
@@ -68,7 +68,7 @@ Başta en büyük 3, en küçük 3.
 
 Sonuçta en büyük 10, en küçük -2’dir.
 
-_Bu problem tek geçişte hem minimum hem maksimum bulma mantığını pekiştiriyor._
+___Bu problem tek geçişte hem minimum hem maksimum bulma mantığını pekiştiriyor.___
 
 # 😸 Üçüncü problem: Asal sayı kontrolü
 
@@ -99,7 +99,7 @@ Değilse “n asal değildir” yazdır.
 Örneğin n = 12 için 2’ye tam bölünebildiğini görürüz, bu yüzden asal değildir.
 n = 13 için ise 2, 3, 4 denenir; hiçbirine tam bölünmediği için 13 asaldır.
 
-_Burada dikkat ettiğimiz nokta, 2’den n’e kadar gitmek yerine, sadece kareköküne kadar kontrol ederek algoritmayı daha verimli hale getirmemiz._
+___Burada dikkat ettiğimiz nokta, 2’den n’e kadar gitmek yerine, sadece kareköküne kadar kontrol ederek algoritmayı daha verimli hale getirmemiz.___
 
 # 📐 Dördüncü problem: Geometrik şekillerin alan, çevre ve hacim hesaplaması
 
@@ -188,7 +188,7 @@ Sonuçları yazdır.
 
 Eğer kullanıcı menüde olmayan bir değer girerse, “Geçersiz seçim” diye uyar.
 
-_Bu problemde, hem matematikte gördüğünüz alan–çevre–hacim formüllerini kullanıyoruz hem de programlama tarafında menü tasarımı, kullanıcıdan veri alma ve koşul yapılarıyla çalışmayı tekrar etmiş oluyoruz._
+___Bu problemde, hem matematikte gördüğünüz alan–çevre–hacim formüllerini kullanıyoruz hem de programlama tarafında menü tasarımı, kullanıcıdan veri alma ve koşul yapılarıyla çalışmayı tekrar etmiş oluyoruz.___
 
 # 🧩 Beşinci problem: Fibonacci serisinin ilk n terimini yazdırma
 
@@ -220,4 +220,4 @@ Sonra a = b, b = c yap ve devam et.
 
 Örneğin n = 5 girildiğinde ekranda 0, 1, 1, 2, 3 yazmasını bekleriz.
 
-_Bu problem, önceki değerleri hatırlayarak yeni bir değer üretmenin güzel bir örneği._
+___Bu problem, önceki değerleri hatırlayarak yeni bir değer üretmenin güzel bir örneği.___
