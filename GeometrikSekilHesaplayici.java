@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GeometriHesaplayici {
+public class GeometrikSekilHesaplayici {
 
     // Kare hesaplama metodu
     public static void kareHesapla(double a) {
