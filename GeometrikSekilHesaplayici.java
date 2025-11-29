@@ -7,8 +7,8 @@ public class GeometrikSekilHesaplayici {
         double alan = a * a;
         double cevre = 4 * a;
         System.out.println("== KARE HESAPLAMASI ==");
-        System.out.println("Karenin Kenarı: " + a);
-        System.out.println("Karenin Alanı: " + alan);
+        System.out.println("Karenin Kenari: " + a);
+        System.out.println("Karenin Alani: " + alan);
         System.out.println("Karenin Cevresi: " + cevre);
     }
 
