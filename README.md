@@ -219,5 +219,6 @@ c’yi ekrana yazdır
 Sonra a = b, b = c yap ve devam et.
 
 Örneğin n = 5 girildiğinde ekranda 0, 1, 1, 2, 3 yazmasını bekleriz.
+
 Bu problem, önceki değerleri hatırlayarak yeni bir değer üretmenin güzel bir örneği.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
