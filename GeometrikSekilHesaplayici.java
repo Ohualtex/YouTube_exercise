@@ -7,9 +7,9 @@ public class GeometrikSekilHesaplayici {
         double alan = a * a;
         double cevre = 4 * a;
         System.out.println("== KARE HESAPLAMASI ==");
-        System.out.println("Kenar: " + a);
-        System.out.println("Alan: " + alan);
-        System.out.println("Cevre: " + cevre);
+        System.out.println("Karenin Kenarı: " + a);
+        System.out.println("Karenin Alanı: " + alan);
+        System.out.println("Karenin Cevresi: " + cevre);
     }
 
     // Dikdortgen hesaplama metodu
@@ -18,8 +18,8 @@ public class GeometrikSekilHesaplayici {
         double cevre = 2 * (kisa + uzun);
         System.out.println("== DIKDORTGEN HESAPLAMASI ==");
         System.out.println("Kisa kenar: " + kisa + ", Uzun kenar: " + uzun);
-        System.out.println("Alan: " + alan);
-        System.out.println("Cevre: " + cevre);
+        System.out.println("Dikdörtgenin Alani: " + alan);
+        System.out.println("Dikdörtgenin Cevresi: " + cevre);
     }
 
     public static void main(String[] args) {
@@ -84,8 +84,8 @@ public class GeometrikSekilHesaplayici {
                 }
                 double daireAlan = Math.PI * r * r;
                 double daireCevre = 2 * Math.PI * r;
-                System.out.println("Daire alani: " + daireAlan);
-                System.out.println("Daire cevresi: " + daireCevre);
+                System.out.println("Dairenin alani: " + daireAlan);
+                System.out.println("Dairenin cevresi: " + daireCevre);
                 break;
 
             case 4: // Küp
@@ -97,8 +97,8 @@ public class GeometrikSekilHesaplayici {
                 }
                 double kupHacim = kenar * kenar * kenar;
                 double kupYuzeyAlan = 6 * kenar * kenar;
-                System.out.println("Kup hacmi: " + kupHacim);
-                System.out.println("Kup yuzey alani: " + kupYuzeyAlan);
+                System.out.println("Kupun hacmi: " + kupHacim);
+                System.out.println("Kupun yuzey alani: " + kupYuzeyAlan);
                 break;
 
             case 5: // Silindir
@@ -115,9 +115,9 @@ public class GeometrikSekilHesaplayici {
                 double silindirTabanAlani = Math.PI * rs * rs;
                 double silindirToplamAlan = 2 * silindirTabanAlani + silindirYanAlan;
 
-                System.out.println("Silindir hacmi: " + silindirHacim);
-                System.out.println("Silindir yan alani: " + silindirYanAlan);
-                System.out.println("Silindir toplam alan (2 taban + yan): " + silindirToplamAlan);
+                System.out.println("Silindirin hacmi: " + silindirHacim);
+                System.out.println("Silindirin yan alani: " + silindirYanAlan);
+                System.out.println("Silindirin toplam alani (2 taban + yan): " + silindirToplamAlan);
                 break;
 
             default:
