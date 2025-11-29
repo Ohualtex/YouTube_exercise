@@ -1,4 +1,4 @@
-😶‍🌫️ Birinci problem: 1’den n’e kadar olan sayıların toplamı
+# 😶‍🌫️ Birinci problem: 1’den n’e kadar olan sayıların toplamı
 
 İlk problemimiz çok klasik ama önemli:
 “Kullanıcıdan pozitif bir n sayısı alıyoruz ve 1’den n’e kadar olan sayıların toplamını buluyoruz.”
@@ -24,7 +24,7 @@ toplam = n * (n + 1) / 2 formülünü kullanabiliriz.
 Mesela n = 5 girilirse, toplam 1 + 2 + 3 + 4 + 5 = 15 çıkar.
 Bu problem bize hem döngüleri hem de bazen tek satırlık bir formülle aynı işi yapabildiğimizi gösteriyor.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🌞İkinci problem: Dizideki en büyük ve en küçük sayıyı bulma
+## 🌞İkinci problem: Dizideki en büyük ve en küçük sayıyı bulma
 
 İkinci problemimizde kullanıcıdan n tane tam sayı almamızı ve bu sayılar içinden en büyük ve en küçük olanı bulmamızı istiyoruz.
 
@@ -69,7 +69,7 @@ Başta en büyük 3, en küçük 3.
 Sonuçta en büyük 10, en küçük -2’dir.
 Bu problem tek geçişte hem minimum hem maksimum bulma mantığını pekiştiriyor.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-😸 Üçüncü problem: Asal sayı kontrolü
+### 😸 Üçüncü problem: Asal sayı kontrolü
 
 Üçüncü problemde kullanıcının girdiği bir sayının asal olup olmadığını kontrol ediyoruz.
 
@@ -100,7 +100,7 @@ n = 13 için ise 2, 3, 4 denenir; hiçbirine tam bölünmediği için 13 asaldı
 
 Burada dikkat ettiğimiz nokta, 2’den n’e kadar gitmek yerine, sadece kareköküne kadar kontrol ederek algoritmayı daha verimli hale getirmemiz.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📐 Dördüncü problem: Geometrik şekillerin alan, çevre ve hacim hesaplaması
+#### 📐 Dördüncü problem: Geometrik şekillerin alan, çevre ve hacim hesaplaması
 
 Dördüncü problemde biraz daha matematiksel bir örnek yapalım.
 Sorumuz şu:
@@ -189,7 +189,7 @@ Eğer kullanıcı menüde olmayan bir değer girerse, “Geçersiz seçim” diy
 
 Bu problemde, hem matematikte gördüğünüz alan–çevre–hacim formüllerini kullanıyoruz hem de programlama tarafında menü tasarımı, kullanıcıdan veri alma ve koşul yapılarıyla çalışmayı tekrar etmiş oluyoruz.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🧩 Beşinci problem: Fibonacci serisinin ilk n terimini yazdırma
+##### 🧩 Beşinci problem: Fibonacci serisinin ilk n terimini yazdırma
 
 Son problemimiz Fibonacci serisiyle ilgili.
 Fibonacci serisi, her sayının kendisinden önce gelen iki sayının toplamı olduğu bir dizi:
