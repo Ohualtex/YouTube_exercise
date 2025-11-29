@@ -1,6 +1,27 @@
 import java.util.Scanner;
 
 public class GeometriHesaplayici {
+
+    // Kare hesaplama metodu
+    public static void kareHesapla(double a) {
+        double kareAlan = a * a;
+        double kareCevre = 4 * a;
+        System.out.println("== KARE HESAPLAMASI ==");
+        System.out.println("Kenar: " + a);
+        System.out.println("Kare alani: " + kareAlan);
+        System.out.println("Kare cevresi: " + kareCevre);
+    }
+
+    // Dikdortgen hesaplama metodu
+    public static void dikdortgenHesapla(double kisa, double uzun) {
+        double dikAlan = kisa * uzun;
+        double dikCevre = 2 * (kisa + uzun);
+        System.out.println("== DIKDORTGEN HESAPLAMASI ==");
+        System.out.println("Kisa kenar: " + kisa + ", Uzun kenar: " + uzun);
+        System.out.println("Dikdortgen alani: " + dikAlan);
+        System.out.println("Dikdortgen cevresi: " + dikCevre);
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -22,10 +43,7 @@ public class GeometriHesaplayici {
                     System.out.println("Kenar uzunlugu negatif olamaz.");
                     return;
                 }
-                double kareAlan = a * a;
-                double kareCevre = 4 * a;
-                System.out.println("Kare alani: " + kareAlan);
-                System.out.println("Kare cevresi: " + kareCevre);
+                kareHesapla(a);
                 break;
 
             case 2: // Dikdörtgen
@@ -33,14 +51,28 @@ public class GeometriHesaplayici {
                 double kisa = scanner.nextDouble();
                 System.out.print("Uzun kenari girin: ");
                 double uzun = scanner.nextDouble();
+
                 if (kisa < 0 || uzun < 0) {
                     System.out.println("Kenar uzunluklari negatif olamaz.");
                     return;
                 }
-                double dikAlan = kisa * uzun;
-                double dikCevre = 2 * (kisa + uzun);
-                System.out.println("Dikdortgen alani: " + dikAlan);
-                System.out.println("Dikdortgen cevresi: " + dikCevre);
+
+                // Eger esitlerse: bu aslinda kare, kare case'ine yonlendir
+                if (kisa == uzun) {
+                    System.out.println("Girilen degerlerle olusan sekil dikdortgen degil, KARE'dir.");
+                    kareHesapla(kisa);   // veya uzun, fark etmez
+                    break;
+                }
+
+                // kisa > uzun ise yer degistir
+                if (kisa > uzun) {
+                    System.out.println("Uyari: Kisa kenar uzun kenardan buyuk girildi, yerleri degistiriyorum.");
+                    double temp = kisa;
+                    kisa = uzun;
+                    uzun = temp;
+                }
+
+                dikdortgenHesapla(kisa, uzun);
                 break;
 
             case 3: // Daire
@@ -93,4 +125,3 @@ public class GeometriHesaplayici {
         }
     }
 }
-
